@@ -1,6 +1,12 @@
-python -m venv venv
+Exécutez les commandes suivantes dans votre terminal :
 
-.\venv\Scripts\activate
+### 1. Créer l'environnement virtuel
+```bash
+python -m venv nom
+
+### 2. Activer l'environnement virtuel (Windows)
+```bash
+.\nom\Scripts\activate
 
 pip install -r requirements.txt
 
