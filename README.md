@@ -1,15 +1,21 @@
-Exécutez les commandes suivantes dans votre terminal :
+## 1. Créer un environnement virtuel
 
-### 1. Créer l'environnement virtuel
 ```bash
 python -m venv nom
+```
 
-### 2. Activer l'environnement virtuel (Windows)
+## 2. Activer l’environnement virtuel
+
 ```bash
 .\nom\Scripts\activate
+```
 
+## 3. Installer les dépendances
+
+```bash
 pip install -r requirements.txt
+```
 
-Environnement setup
+## 4. Lancer le code Environnement_setup.py pour créer les environnements d'entraînement, validation et test :
 
-Puis un des scripts
+python Environnement_setup.py
