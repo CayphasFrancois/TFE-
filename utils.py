@@ -1,7 +1,7 @@
 import matplotlib.pyplot as plt 
 
 
-def plotLearning(scores, filename):   
+def plotLearning(scores):   
 
     plt.figure() 
     plt.plot(scores)
@@ -10,5 +10,5 @@ def plotLearning(scores, filename):
     plt.xlabel('Épisodes')
     plt.title('Évolution du Score de Validation')
     
-    plt.savefig(filename)
+
     plt.close()
