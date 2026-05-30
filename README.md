@@ -16,7 +16,7 @@ python -m venv nom
 pip install -r requirements.txt
 ```
 
-## 4. Lancer le code Environnement_setup.py pour créer les environnements d'entraînement, validation et test :
+## 4. Lancer le code Environnement_setup.py pour créer les environnements d'entraînement, de validation et de test :
 
 ```bash
 python Environnement_setup.py
